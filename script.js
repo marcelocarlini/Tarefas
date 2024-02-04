@@ -39,16 +39,16 @@ function mostrarTarefa() {
             </li>`
     })
 
-    listaCompleta.innerHTML = novaLi
-    localStorage.setItem('lista', JSON.stringify(minhaLista))
+    /* listaCompleta.innerHTML = novaLi
+    localStorage.setItem('lista', JSON.stringify(minhaLista)) */
 }
 
-function recarregarTarefas() {
+/* function recarregarTarefas() {
     const tarefasdoLocalStorage = localStorage.getItem('lista')
     minhaLista = JSON.parse(tarefasdoLocalStorage)
     mostrarTarefa()
 
-}
+} */
 
 
 recarregarTarefas()
