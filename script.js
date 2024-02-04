@@ -39,8 +39,9 @@ function mostrarTarefa() {
             </li>`
     })
 
-    /* listaCompleta.innerHTML = novaLi
-    localStorage.setItem('lista', JSON.stringify(minhaLista)) */
+    listaCompleta.innerHTML = novaLi
+    //"LOCAL STORAGE PARA USO LOCAL"
+    /* localStorage.setItem('lista', JSON.stringify(minhaLista)) */
 }
 
 /* function recarregarTarefas() {
@@ -51,5 +52,5 @@ function mostrarTarefa() {
 } */
 
 
-recarregarTarefas()
+/* recarregarTarefas() */
 button.addEventListener('click', addTarefa)
